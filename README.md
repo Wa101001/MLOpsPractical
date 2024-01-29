@@ -1,4 +1,4 @@
-
+remove the license 
 # Project Title
 
 This repository contains the codebase for [MLOPsPractical]. It utilizes [Poetry](https://python-poetry.org/) for package management, ensuring a clean and reproducible environment. Follow the steps below to set up the project on your local machine.
@@ -43,4 +43,4 @@ Now you're ready to start working on your project with the specified dependencie
 
 
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+
