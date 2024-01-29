@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+
+<h1>Flask App</h1>
+
+<!-- Input form -->
+<form action="/predict" method="post">
+    <label for="user_input">Enter a name for prediction:</label>
+    <input type="text" id="user_input" name="user_input">
+    <button type="submit">Predict</button>
+</form>
+
+<!-- Display prediction result -->
+<div>
+    {% if prediction %}
+        <p>Prediction: {{ prediction }}</p>
+    {% endif %}
+    {% if error %}
+        <p>Error: {{ error }}</p>
+    {% endif %}
+</div>
+
+</body>
+</html>
