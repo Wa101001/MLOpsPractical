@@ -1,4 +1,3 @@
-remove the license 
 # Project Title
 
 This repository contains the codebase for [MLOPsPractical]. It utilizes [Poetry](https://python-poetry.org/) for package management, ensuring a clean and reproducible environment. Follow the steps below to set up the project on your local machine.
